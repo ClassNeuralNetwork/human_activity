@@ -1,8 +1,9 @@
-# Reconhecimento de Atividades Humanas com Redes Neurais
+# Reconhecimento de Atividades Humanas por Sensores Inerciais: Uma Análise Comparativa entre Redes GRU e BiLSTM
 
 ---
 
 Projeto desenvolvido para a disciplina **Redes Neurais Artificiais**, como avaliação da **Unidade 3**.
+
 **Professora:** [Rosana Cibely](https://github.com/roscibely)  
 **Instituição:** UFERSA — Campus Pau dos Ferros
 
@@ -10,7 +11,7 @@ Projeto desenvolvido para a disciplina **Redes Neurais Artificiais**, como avali
 
 ## Sobre o projeto
 
-Este projeto desenvolve modelos de redes neurais recorrentes para classificar atividades humanas a partir de dados de sensores de movimento. Foram implementadas e avaliadas duas arquiteturas: **BiLSTM (Bidirectional LSTM)** e **GRU (Gated Recurrent Unit)**.
+Este projeto realiza uma análise comparativa entre as arquiteturas **GRU** e **BiLSTM** para o reconhecimento de atividades humanas, utilizando dados de acelerômetro e giroscópio do conjunto **UCI HAR**. Os modelos foram avaliados por métricas de desempenho, matrizes de confusão e análise de explicabilidade com **SHAP**.
 
 ## Base de dados
 
