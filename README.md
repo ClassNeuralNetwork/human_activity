@@ -2,7 +2,7 @@
 
 ---
 
-#### Prova da Unidade 3 — Redes Neurais Artificiais
+Projeto desenvolvido para a disciplina **Redes Neurais Artificiais**, como avaliação da **Unidade 3**.
 **Professora:** [Rosana Cibely](https://github.com/roscibely)  
 **Instituição:** UFERSA — Campus Pau dos Ferros
 
@@ -130,5 +130,6 @@ Cada contribuidora desempenhou um papel essencial no desenvolvimento e aprimoram
 
 ---
 
-**Disciplina:** Redes Neurais Artificiais  
-**Avaliação:** Prova da Unidade 3
+## Licença
+
+Este projeto está licenciado sob a licença MIT. Consulte o arquivo [LICENSE](LICENSE) para obter mais informações.
