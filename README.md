@@ -107,8 +107,26 @@ Com os resultados obtidos nos notebooks, a GRU apresentou a maior acurácia no t
 
 ## Equipe
 
-- [Francisca Lorrayne de Lima Santos](https://github.com/franciscalorraynes)
-- [Samira Aquino](https://github.com/samirafq)
+<table align="center">
+  <tr>
+    <td align="center">
+      <a href="https://github.com/franciscalorraynes">
+        <img src="https://avatars.githubusercontent.com/u/104534319?v=4" width="120px;" alt="Foto de Francisca Lorrayne no GitHub"/><br>
+        <sub><b>Francisca Lorrayne</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/samirafq">
+        <img src="https://avatars.githubusercontent.com/u/111064435?v=4" width="120px;" alt="Foto de Samira França no GitHub"/><br>
+        <sub><b>Samira França</b></sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
+<p align="center">
+Cada contribuidora desempenhou um papel essencial no desenvolvimento e aprimoramento deste projeto.
+</p>
 
 ---
 
