@@ -17,7 +17,7 @@ Este projeto realiza uma análise comparativa entre as arquiteturas **GRU** e **
 
 Foi utilizado o conjunto **Human Activity Recognition Using Smartphones (UCI HAR)**, disponibilizado no repositório da UCI:
 
-[Human Activity Recognition Using Smartphones — UCI](https://archive.ics.uci.edu/dataset/240/human+activity+recognition+using+smartphones)
+[Human Activity Recognition with Smartphones](https://www.kaggle.com/datasets/uciml/human-activity-recognition-with-smartphones)
 
 Os dados foram coletados por meio dos sensores de acelerômetro e giroscópio de smartphones. O problema contempla seis atividades:
 
@@ -131,6 +131,3 @@ Cada contribuidora desempenhou um papel essencial no desenvolvimento e aprimoram
 
 ---
 
-## Licença
-
-Este projeto está licenciado sob a licença MIT. Consulte o arquivo [LICENSE](LICENSE) para obter mais informações.
