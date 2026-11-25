@@ -41,17 +41,18 @@ A arquitetura utiliza duas camadas LSTM bidirecionais, com camadas Dropout para 
 - Otimizador: Adam.
 - Taxa de aprendizado: 0,001.
 - Função de perda: Sparse Categorical Crossentropy.
-- Total de parâmetros: 87.750.
+- Entrada do modelo: sequências com dimensão 128 × 9.
+- Total de parâmetros treináveis: 81.382.
 
 **Resultados no conjunto de teste:**
 
 | Métrica | Resultado |
 |---|---:|
-| Acurácia | 89,41% |
-| Loss | 0,4312 |
-| Precisão (macro) | 90,23% |
-| Recall (macro) | 89,16% |
-| F1-score (macro) | 89,38% |
+| Acurácia |90,06% |
+| Loss | 0,2969 |
+| Precisão (macro) | 90,32% |
+| Recall (macro) | 90,13% |
+| F1-score (macro) | 90,07% |
 
 ### GRU
 
@@ -77,9 +78,13 @@ A arquitetura é composta por duas camadas GRU, intercaladas com Dropout, uma ca
 
 ## Avaliação
 
-O desempenho dos modelos foi analisado por meio de métricas de classificação e matrizes de confusão. Também foram gerados gráficos de acurácia e perda durante o treinamento e a validação.
+## Avaliação
 
-Com os resultados obtidos nos notebooks, a GRU apresentou a maior acurácia no teste (90,13%), enquanto a BiLSTM alcançou 89,41%. Os resultados correspondem às configurações e aos procedimentos de cada implementação.
+O desempenho dos modelos foi analisado por meio de acurácia, precisão, recall, F1-score, matrizes de confusão e curvas de treinamento e validação. Também foi utilizada a técnica **SHAP** para investigar as contribuições dos sensores nas previsões.
+
+A **GRU alcançou 90,13% de acurácia**, enquanto a **BiLSTM obteve 90,06%**, representando uma diferença de apenas **0,07 ponto percentual**.
+
+Ambas as arquiteturas utilizaram os mesmos sinais temporais originais da UCI HAR, permitindo uma comparação mais consistente. Os resultados demonstraram desempenhos próximos, sem estabelecer superioridade definitiva de uma arquitetura sobre a outra.
 
 ## Arquivos
 
